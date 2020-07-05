@@ -1,5 +1,10 @@
 import colors from "./colors";
-
+export function resetStyles(){
+    return `appearance:none;
+    -webkit-appearance: none;
+    border:none;
+    outline:none;`;
+}
 export function outsetElement(level = 2) {
   return `       
     border-radius: ${colors.borderRadius}px;

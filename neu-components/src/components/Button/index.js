@@ -5,7 +5,7 @@ function Button({
   text = "Submit",
   type = "secondary",
   disabled = false,
-  level = 3,
+  level = 4,
 }) {
   return (
     <ButtonContainer

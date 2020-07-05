@@ -1,7 +1,7 @@
 import React from "react";
 import { BodyContainer } from "./styles";
 
-function Body(props) {
-  return <BodyContainer>Body</BodyContainer>;
+function Body({children}) {
+  return <BodyContainer>{children}</BodyContainer>;
 }
 export default Body;
